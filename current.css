@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style:none;
+    text-decoration: none;
+  }
+
+  
+
+  .sec-1{
+    width:90
+  }
+  .first-header {
+   
+    width: 100%;
+    padding:  12px 40px;
+   display: flex;
+   color:#ffffff;
+   background-color: #1F4C9C;
+   justify-content: space-between;
+   
+  }
+
+  .first-header-topic{
+    width:50%;
+    display: flex;
+    gap:40px;
+  }
+
+  .icon-header{
+   
+    display:flex;
+    gap:20px;
+  }
+
+  .second-header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0px 38px;
+    
+  }
+
+  .logo{
+    display:flex;
+    width: 40%;
+    align-items: center;
+    gap: 12px;
+    color:#747272;
+  }
+
+
+  .second-header ul{
+    display:flex;
+    gap:42px;
+    color:#747272;
+  }
+
+
+
+  .sec-2 img{
+   width:100%;
+  }
+
+  .hero{
+    position: relative;
+  }
+  .hero-des{
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+
+  } 
+  
+
+  .hero-des h1{
+    font-size: 46px;
+    color:#c6bfbf
+  }
+  
+  .hero-des p{
+    font-size:20px;
+    color: #3c2626;
+  }
+  
+  .hero-des a{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: #c6bfbf;
+   color:#3e1916;
+   padding:12px;
+   width:fit-content;
+   margin:20px 2px;
+   border-radius: 12px;
+  }
+
+  /* css of about  */
+
+.about {
+  padding: 160px 20px;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+.sec-3 {
+  padding: 10px 20px 80px 20px;
+  width: 100%;
+
+  background-color: #f5f5f6;
+}
+
+.a-des {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 0px 0px 0px;
+}
+
+.a-des p {
+  width: 40%;
+  font-size: 18px;
+  border-radius: 24px;
+  line-height: 38px;
+  padding: 20px;
+}
+
+.a-des img {
+  border-radius: 120px;
+  fill: #c6bfbf;
+}
+
+.CP {
+  display: flex;
+
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #c6bfbf;
+
+  width: 140px;
+ margin:0 auto;
+}
+
+.CP a {
+  color: #1202bd;
+}
